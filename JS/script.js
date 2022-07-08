@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Проверка на отправку формы (ответ с PHP)
 
-            console.log(response.body);
+            console.log(response.ok);
 
             if (response.ok) {
                 let result = await response.json();
